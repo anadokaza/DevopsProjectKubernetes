@@ -4,7 +4,7 @@ metadata:
   name: postgre-pvc
   namespace: springapp
 spec:
-  storageClassName: local-path
+  storageClassName: standard
   accessModes:
     - ReadWriteOnce
   resources:
