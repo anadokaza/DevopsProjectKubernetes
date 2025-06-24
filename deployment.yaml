@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - name: spring
-          image: ana707/app:v72
+          image: ana707/app:v11
           ports:
             - containerPort: 8080
           env:
